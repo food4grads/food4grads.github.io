@@ -1,5 +1,27 @@
 <head>
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
+    <style type="text/css">
+  figure {
+    border: 3px double #ccc;
+    padding: 0.5em;
+  }
+  dt {
+    float: left;
+    clear: left;
+    width: 120px;
+    text-align: right;
+    /*font-weight: bold;*/
+    /*color: green;*/
+  }
+  dt::after {
+    /*content: ":";*/
+  }
+  dd {
+    margin: 0 0 0 130px;
+    padding: 0 0 0.5em 0;
+  }
+    </style>
 </head>
 
 <div>
@@ -10,11 +32,19 @@
     <figure>
         <img src="/img/taco_kimchi.jpg" width="100px" alt="missing">
         <figcaption>Breakfast Taco with White Fish and Kimchi</figcaption>
-        <figcaption>Time to Make: <i class="em em-timer_clock"></i><i class="em em-timer_clock"></i></figcaption>
-        <figcaption>Cost: <i class="em em-money_with_wings"></i><i class="em em-money_with_wings"></i></figcaption>
-        <figcaption>Calories: <i class="em em-sunny"></i><i class="em em-sunny"></i><i class="em em-sunny"></i></figcaption>
-        <figcaption>Carbs: <i class="em em-baguette_bread"></i><i class="em em-baguette_bread"></i></figcaption>
-        <figcaption>Protein: <i class="em em-muscle"></i><i class="em em-muscle"></i><i class="em em-muscle"></i></figcaption>
-        <figcaption>Deliciousness: <i class="em em-yum"></i><i class="em em-yum"></i><i class="em em-yum"></i><i class="em em-yum"></i><i class="em em-yum"></i></figcaption>
+        <dl>
+            <dt>Time to Make</dt>
+            <dd><i class="em em-timer_clock"></i><i class="em em-timer_clock"></i></dd>
+            <dt>Cost</dt>
+            <dd><i class="em em-money_with_wings"></i><i class="em em-money_with_wings"></i></dd>
+            <dt>Calories</dt>
+            <dd><i class="em em-sunny"></i><i class="em em-sunny"></i><i class="em em-sunny"></i></dd>
+            <dt>Carbs</dt>
+            <dd><i class="em em-baguette_bread"></i><i class="em em-baguette_bread"></i></dd>
+            <dt>Protein</dt>
+            <dd><i class="em em-muscle"></i><i class="em em-muscle"></i><i class="em em-muscle"></i></dd>
+            <dt>Deliciousness</dt>
+            <dd><i class="em em-yum"></i><i class="em em-yum"></i><i class="em em-yum"></i><i class="em em-yum"></i><i class="em em-yum"></i></dd>
+        </dl>
     </figure>
 </div>
